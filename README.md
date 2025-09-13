@@ -22,11 +22,8 @@ Here are some ideas to get you started:
 ```yaml
 Name: Anisha Penikalapati
 Located in: Ontario, Ajax
-Education:
-  [
-    "Bachelor's of Science: Computer Science"
-  ]
-Currently learning: ["Data Structures in Java, Scientific Data Analysis"]
-Hobbies: ["Art", "Reading"]
+Education: Bachelor of Science: Computer Science  
+Currently learning: Data Structures in Java, Scientific Data Analysis
+Hobbies: Art, Reading
 ```
 
