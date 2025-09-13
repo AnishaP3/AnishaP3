@@ -1,8 +1,37 @@
 ## Hi there 👋
-<p align="center">
-  <text=Hey Everyone!&animation=fadeIn&type=rect&color=gradient&height=100"/>
-</p>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Greeting</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff7e5f, #feb47b);
+      font-family: Arial, sans-serif;
+    }
+
+    .fade-in {
+      font-size: 2.5em;
+      color: white;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="fade-in">Hey Everyone!</div>
+</body>
+</html>
 <!--
 **AnishaP3/AnishaP3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
