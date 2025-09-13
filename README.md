@@ -17,3 +17,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+name: Anisha Penikalapati
+located_in: Ontario, Ajax
+education:
+  [
+    "Bachelor's of Science: Computer Science"
+  ]
+
+currently_learning: ["Data Structures in Java, Scientific Data Analysis"]
+
+hobbies: ["Art", "Reading"]
