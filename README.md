@@ -18,13 +18,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-name: Anisha Penikalapati
-located_in: Ontario, Ajax
-education:
+```yaml
+Name: Anisha Penikalapati
+Located in: Ontario, Ajax
+Education:
   [
     "Bachelor's of Science: Computer Science"
   ]
+Currently learning: ["Data Structures in Java, Scientific Data Analysis"]
+Hobbies: ["Art", "Reading"]
+```
 
-currently_learning: ["Data Structures in Java, Scientific Data Analysis"]
-
-hobbies: ["Art", "Reading"]
