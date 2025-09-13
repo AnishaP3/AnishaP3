@@ -1,11 +1,15 @@
 ## Hi there 👋
 
-<h1 align="center">Hi 👋, I'm Anisha</h1>
+<h1 align="center">Hi, I'm Anisha</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=anishap3&label=Profile%20views&color=0e75b6&style=flat" alt="anishap3" /> </p>
 
-- 🌱 I’m currently learning **Data Structures in Java and Scientific Data Analysis**
 
-- 📫 How to reach me **anisha.p99999@gmail.com**
+- Name: Anisha Penikalapati
+- Located in: Ontario, Ajax
+- Education: Bachelor of Science: Computer Science
+- I’m currently learning **Data Structures in Java and Scientific Data Analysis**
+- Hobbies: Art, Reading
+- How to reach me **anisha.p99999@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -35,10 +39,6 @@ Here are some ideas to get you started:
 -->
 
 ```yaml
-Name: Anisha Penikalapati
-Located in: Ontario, Ajax
-Education: Bachelor of Science: Computer Science  
-Currently learning: Data Structures in Java, Scientific Data Analysis
-Hobbies: Art, Reading
+
 ```
 
