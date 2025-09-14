@@ -1,4 +1,3 @@
-## Hi there 👋
 
 <h1 align="center">Hi, I'm Anisha</h1>
 <h3 align="center">Computer Science Student @ Ontario Tech</h3>
