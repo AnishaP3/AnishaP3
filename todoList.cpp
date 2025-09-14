@@ -2,7 +2,16 @@
 #include <vector>
 #include <limits>
 #include <cctype>  
+#include <fstream>
+#include <sstream>
+#include <map>
+#include <ctime>
 using namespace std;
+#define RESET   "\033[0m"
+#define RED     "\033[31m"
+#define GREEN   "\033[32m"
+#define YELLOW  "\033[33m"
+#define CYAN    "\033[36m"
 
 /* Anisha Penikalapati
    Aug 11, 2025
@@ -48,6 +57,15 @@ bool isValidDateFormat(string& date) {
     return true;
 }
 
+// TWO DIGITS FUNCTION //
+
+string twoDigits(int n) {
+    if (n < 10) {
+        return "0" + to_string(n);
+    }
+    return to_string(n);
+}
+
 // ADD TASK FUNCTION //
 
 void addTask(vector<string>& tasks, vector<bool>& completed, vector<string>& dueDates){
@@ -77,22 +95,33 @@ void addTask(vector<string>& tasks, vector<bool>& completed, vector<string>& due
 // SHOW TASKS FUNCTION //
 
 void showTasks(vector<string>& tasks, vector<bool>& completed, vector<string>& dueDates){
-    cout << "\n --- To-Do List --- \n";
+    cout << CYAN << "\n --- Your To-Do List ---\n" << RESET;
     
-    // if no tasks
-    if (tasks.empty()) {
-        cout << "No tasks yet!\n";
-        return;
-    }
-    
-    for(int i = 0; i < tasks.size(); i++){
-        if(completed[i]){
-            cout << i + 1 << ". " << "[✓] " << tasks[i] << " (Due: " << dueDates[i] << ")\n";
+    time_t timestamp = time(0);
+    struct tm datetime = *localtime(&timestamp);
+    string today = to_string(datetime.tm_year + 1900) + "-" +
+                   twoDigits(datetime.tm_mon + 1) + "-" +
+                   twoDigits(datetime.tm_mday);
+
+    for (int i = 0; i < tasks.size(); i++) {
+        string color = RESET;
+        string statusIcon = "[ ]";
+
+        if (completed[i]) {
+            color = GREEN;
+            statusIcon = "[✓]";
+        } else if (dueDates[i] < today) {
+            color = RED;
+            statusIcon = "[!]";
+        } else if (dueDates[i] == today) {
+            color = YELLOW;
+            statusIcon = "[*]";
         }
-        else{
-            cout << i + 1 << ". " << "[ ] " << tasks[i] << " (Due: " << dueDates[i] << ")\n";
-        }
+
+        cout << i + 1 << ". " << color << statusIcon << " "
+             << tasks[i] << "  (Due: " << dueDates[i] << ")" << RESET << "\n";
     }
+
     cout << "\n";
 }
 
@@ -168,6 +197,112 @@ void deleteTask(vector<string>& tasks, vector<bool>& completed, vector<string>& 
     }
 }
 
+
+// SAVE TASKS TO FILE //
+
+void saveTasks(vector<string>& tasks, vector<bool>& completed, vector<string>& dueDates){
+    ofstream file("tasks.txt");
+    
+    if (!file) {
+        cout << "Error saving tasks!\n";
+        return;
+    }
+    
+    for(int i = 0; i < tasks.size(); i++){
+        file << tasks[i] << "|" << dueDates[i] << "|" << completed[i] << "\n";
+    }
+    
+    file.close();
+}
+
+// LOAD TASKS FROM A FILE //
+
+void loadTasks(vector<string>& tasks, vector<bool>& completed, vector<string>& dueDates){
+    
+    ifstream file("tasks.txt");
+    if (!file.is_open()){
+        return; 
+    }
+    
+    string line = "";
+    
+    while (getline(file, line)){
+        stringstream ss(line); 
+        string task, date, done;
+
+        getline(ss, task, '|');   // task description
+        getline(ss, date, '|');   // due date
+        getline(ss, done, '|');   // completion status
+        
+        tasks.push_back(task);
+        dueDates.push_back(date);
+        completed.push_back(done == "1" || done == "true");
+    }
+    
+    file.close();
+    
+}
+
+// CALENDAR VIEW //
+
+void calendarView(vector<string>& tasks, vector<bool>& completed, vector<string>& dueDates) {
+    
+    cout << CYAN << "\n === Calendar View ===\n" << RESET;
+    
+    if (tasks.empty()) {
+        cout << "No tasks yet!\n";
+        return;
+    }
+    
+    map<string, vector<int>> dateMap;
+    string date;
+    
+    for (int i = 0; i < tasks.size(); i++) {
+        dateMap[dueDates[i]].push_back(i);
+    }
+
+    for (auto& entry : dateMap) {
+        cout << CYAN << "── " << entry.first << " ──" << RESET << "\n";
+        for (int idx : entry.second) {
+            string icon;
+            if (completed[idx]) {
+                icon = "[✓] ";
+            }
+            else {
+                icon = "[ ] ";
+            }
+            cout << "   " << icon << tasks[idx] << "\n";
+        }
+        cout << "\n";
+    }
+}
+
+
+// OVERDUE FUNCTION //
+
+void overdue(vector<string>& tasks, vector<bool>& completed, vector<string>& dueDates){
+    
+    time_t timestamp = time(0);
+    struct tm datetime = *localtime(&timestamp);
+    
+    string today = to_string(datetime.tm_year + 1900) + "-" +
+                   twoDigits(datetime.tm_mon + 1) + "-" +
+                   twoDigits(datetime.tm_mday);
+    
+    cout << "\n=== Overdue Tasks (Before " << today << ") ===\n";
+
+    bool found = false;
+    for (int i = 0; i < tasks.size(); i++) {
+        if (!completed[i] && dueDates[i] < today) {
+            cout << " - " << tasks[i] << " (Due: " << dueDates[i] << ")\n";
+            found = true;
+        }
+    }
+    if (!found) {
+        cout << "No overdue tasks!\n";
+    }
+}
+
 // MAIN FUNCTION //
 
 int main(){
@@ -178,16 +313,24 @@ int main(){
     vector<string> dueDates;
     bool validInput = true;
     
+    loadTasks(tasks, completed, dueDates);
+    
  do {   
     validInput = true;
      
     // Menu
-    cout << "\n ===== 𝐓𝐎𝐃𝐎 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔 ===== \n";
-    cout << "1. Show Tasks \n";
-    cout << "2. Add Task \n";
-    cout << "3. Complete Task \n";
-    cout << "4. Delete Task \n";
-    cout << "5. Exit \n";
+    cout << CYAN << "\n╔══════════════════════════════╗\n";
+    cout <<   "║        📌   TO-DO MENU        ║\n";
+    cout <<   "╚══════════════════════════════╝" << RESET << "\n";
+
+    cout << YELLOW << " 1 " << RESET << " → Show Tasks\n";
+    cout << YELLOW << " 2 " << RESET << " → Add Task\n";
+    cout << YELLOW << " 3 " << RESET << " → Complete Task\n";
+    cout << YELLOW << " 4 " << RESET << " → Delete Task\n";
+    cout << YELLOW << " 5 " << RESET << " → Calendar View\n";
+    cout << YELLOW << " 6 " << RESET << " → Overdue Tasks\n";
+    cout << YELLOW << " 7 " << RESET << " → Exit\n\n";
+
     
     // Getting option from user
    
@@ -221,11 +364,18 @@ int main(){
             deleteTask(tasks, completed, dueDates);
         } 
         else if (option == 5) {
-            cout << "Goodbye!\n";
+            calendarView(tasks, completed, dueDates);
+        }
+        else if (option == 6) {
+            overdue(tasks, completed, dueDates);
         } 
+        else if (option == 7) {
+            saveTasks(tasks, completed, dueDates);
+            cout << "Goodbye!\n";
+        }
         else {
             cout << "Invalid choice!\n";
         }
     }
- } while(option != 5);   
+ } while(option != 7);   
 }
