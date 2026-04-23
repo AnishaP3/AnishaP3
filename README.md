@@ -26,7 +26,6 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 • Built a two‑player Battleship game using Java sockets and multithreading for real‑time communication.  
 • Implemented server‑side turn management, hit/miss validation, and synchronized game boards.  
 • Added sound effects, move highlights, and a basic matchmaking lobby.  
-🔗 *Repo link coming soon*
 
 ---
 
@@ -43,7 +42,6 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 **Oct 2025 – Nov 2025**  
 • Analyzed the relationship between social media usage and productivity using pandas, NumPy, and Matplotlib.  
 • Cleaned and transformed raw datasets, handled missing values, and created visualizations to identify behavioral trends.  
-🔗 *Repo link coming soon*
 
 ---
 
@@ -52,7 +50,6 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 • Developed an OOP‑based utility billing system (gas, water, electricity) to centralize bill payments.  
 • Added installment payment options to improve user flexibility.  
 • Collaborated in a team environment.  
-🔗 *Repo link coming soon*
 
 ---
 
