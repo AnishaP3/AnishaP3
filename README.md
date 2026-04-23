@@ -1,24 +1,73 @@
 
-<h1 align="center">Hi, I'm Anisha</h1>
 <h3 align="center">Computer Science Student @ Ontario Tech</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=anishap3&label=Profile%20views&color=18a090&style=flat" alt="anishap3" /> </p>
+# Hi, I'm Anisha 👋
 
-- Name: Anisha Penikalapati
-- Located in: Ontario, Ajax
-- Education: Bachelor of Science: Computer Science
-- I’m currently learning **Data Structures in Java and Scientific Data Analysis**
-- Hobbies: Art, Reading
-- All of my projects are available at [https://github.com/AnishaP3/AnishaP3](https://github.com/AnishaP3/AnishaP3)
+I'm a developer passionate about building practical, user‑focused software.  
+I enjoy solving problems with Java, Python, and data‑driven approaches, and I love collaborating in team environments using Agile and Git.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+---
 
-- How to reach me **anisha.p99999@gmail.com**
+## 🚀 Technical Skills
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+**Languages:** Java, Python, C++, Bash  
+**Tools:** Git, VS Code, IntelliJ, MS Office  
+**Libraries:** pandas, NumPy, Matplotlib, seaborn  
+**Methods:** Agile (Scrum), Version Control  
+**Coursework:** Data Structures, Computer Architecture, Data Analysis, Software Systems, Software Design  
+**Soft Skills:** Problem Solving, Collaboration, Communication, Time Management  
+
+---
+
+## 📌 Featured Projects
+
+### 🔹 Utility Payment Service (Java)  
+**Oct 2023 – Jan 2024**  
+• Developed an OOP‑based utility billing system (gas, water, electricity) to centralize bill payments.  
+• Added installment payment options to improve user flexibility.  
+• Collaborated in a team environment.  
+🔗 *Repo link coming soon*
+
+---
+
+### 🔹 E‑Commerce Clothing Website (Java)  
+**Jan 2026 – Apr 2026**  
+• Built a full‑stack e‑commerce platform with product browsing, cart management, and checkout workflows.  
+• Integrated a personality test that generates personalized clothing recommendations.  
+• Worked in a team using Agile practices and Git for version control.  
+🔗 *Repo link coming soon*
+
+---
+
+### 🔹 Data Science Project — Social Media & Productivity (Python)  
+**Oct 2025 – Nov 2025**  
+• Analyzed the relationship between social media usage and productivity using pandas, NumPy, and Matplotlib.  
+• Cleaned and transformed raw datasets, handled missing values, and created visualizations to identify behavioral trends.  
+🔗 *Repo link coming soon*
+
+---
+
+### 🔹 Multiplayer Battleship Game (Java)  
+**Mar 2026 – Apr 2026**  
+• Built a two‑player Battleship game using Java sockets and multithreading for real‑time communication.  
+• Implemented server‑side turn management, hit/miss validation, and synchronized game boards.  
+• Added sound effects, move highlights, and a basic matchmaking lobby.  
+🔗 *Repo link coming soon*
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight)
+
+---
+
+## 📫 Connect With Me
+
+- LinkedIn:  
+- Portfolio Website:  
+- Email:  
+
 
 
 <!--
@@ -39,4 +88,6 @@ Here are some ideas to get you started:
 ```yaml
 
 ```
+
+
 
