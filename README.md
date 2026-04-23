@@ -1,8 +1,7 @@
 
-<h3 align="center">Computer Science Student @ Ontario Tech</h3>
 
 # Hi, I'm Anisha 👋
-
+<h3 align="center">Computer Science Student @ Ontario Tech</h3>
 I'm a developer passionate about building practical, user‑focused software.  
 I enjoy solving problems with Java, Python, and data‑driven approaches, and I love collaborating in team environments using Agile and Git.
 
@@ -21,11 +20,11 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 
 ## 📌 Featured Projects
 
-### 🔹 Utility Payment Service (Java)  
-**Oct 2023 – Jan 2024**  
-• Developed an OOP‑based utility billing system (gas, water, electricity) to centralize bill payments.  
-• Added installment payment options to improve user flexibility.  
-• Collaborated in a team environment.  
+### 🔹 Multiplayer Battleship Game (Java)  
+**Mar 2026 – Apr 2026**  
+• Built a two‑player Battleship game using Java sockets and multithreading for real‑time communication.  
+• Implemented server‑side turn management, hit/miss validation, and synchronized game boards.  
+• Added sound effects, move highlights, and a basic matchmaking lobby.  
 🔗 *Repo link coming soon*
 
 ---
@@ -35,7 +34,7 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 • Built a full‑stack e‑commerce platform with product browsing, cart management, and checkout workflows.  
 • Integrated a personality test that generates personalized clothing recommendations.  
 • Worked in a team using Agile practices and Git for version control.  
-🔗 *Repo link coming soon*
+🔗 [View Repo](https://github.com/AnishaP3/Project-Hub)
 
 ---
 
@@ -47,11 +46,11 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 
 ---
 
-### 🔹 Multiplayer Battleship Game (Java)  
-**Mar 2026 – Apr 2026**  
-• Built a two‑player Battleship game using Java sockets and multithreading for real‑time communication.  
-• Implemented server‑side turn management, hit/miss validation, and synchronized game boards.  
-• Added sound effects, move highlights, and a basic matchmaking lobby.  
+### 🔹 Utility Payment Service (Java)  
+**Oct 2023 – Jan 2024**  
+• Developed an OOP‑based utility billing system (gas, water, electricity) to centralize bill payments.  
+• Added installment payment options to improve user flexibility.  
+• Collaborated in a team environment.  
 🔗 *Repo link coming soon*
 
 ---
