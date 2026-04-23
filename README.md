@@ -1,6 +1,7 @@
 
 
 # Hi, I'm Anisha 👋
+
 <h3 align="center">Computer Science Student @ Ontario Tech</h3>
 I'm a developer passionate about building practical, user‑focused software.  
 I enjoy solving problems with Java, Python, and data‑driven approaches, and I love collaborating in team environments using Agile and Git.
@@ -55,17 +56,8 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 
 ---
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight)
-
----
-
 ## 📫 Connect With Me
-
-- LinkedIn:  
-- Portfolio Website:  
-- Email:  
+- LinkedIn: www.linkedin.com/in/anisha-penikalapati 
 
 
 
