@@ -1,6 +1,6 @@
 
 
-# Hi, I'm Anisha 👋
+# Hi, I'm Anisha
 
 <h3 align="center">Computer Science Student @ Ontario Tech</h3>
 I'm a developer passionate about building practical, user‑focused software.  
@@ -8,7 +8,7 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 
 ---
 
-## 🚀 Technical Skills
+## Technical Skills
 
 **Languages:** Java, Python, C++, Bash  
 **Tools:** Git, VS Code, IntelliJ, MS Office  
@@ -19,9 +19,9 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 
 ---
 
-## 📌 Featured Projects
+## Featured Projects
 
-### 🔹 Multiplayer Battleship Game (Java)  
+###  Multiplayer Battleship Game (Java)  
 **Mar 2026 – Apr 2026**  
 • Built a two‑player Battleship game using Java sockets and multithreading for real‑time communication.  
 • Implemented server‑side turn management, hit/miss validation, and synchronized game boards.  
@@ -29,7 +29,7 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 
 ---
 
-### 🔹 E‑Commerce Clothing Website (Java)  
+###  E‑Commerce Clothing Website (Java)  
 **Jan 2026 – Apr 2026**  
 • Built a full‑stack e‑commerce platform with product browsing, cart management, and checkout workflows.  
 • Integrated a personality test that generates personalized clothing recommendations.  
@@ -38,14 +38,14 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 
 ---
 
-### 🔹 Data Science Project — Social Media & Productivity (Python)  
+###  Data Science Project — Social Media & Productivity (Python)  
 **Oct 2025 – Nov 2025**  
 • Analyzed the relationship between social media usage and productivity using pandas, NumPy, and Matplotlib.  
 • Cleaned and transformed raw datasets, handled missing values, and created visualizations to identify behavioral trends.  
 
 ---
 
-### 🔹 Utility Payment Service (Java)  
+###  Utility Payment Service (Java)  
 **Oct 2023 – Jan 2024**  
 • Developed an OOP‑based utility billing system (gas, water, electricity) to centralize bill payments.  
 • Added installment payment options to improve user flexibility.  
@@ -53,7 +53,7 @@ I enjoy solving problems with Java, Python, and data‑driven approaches, and I 
 
 ---
 
-## 📫 Connect With Me
+##  Connect With Me
 - LinkedIn: www.linkedin.com/in/anisha-penikalapati 
 
 
