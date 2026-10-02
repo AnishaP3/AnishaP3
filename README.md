@@ -2,7 +2,7 @@
 
 # Hi, I'm Anisha
 
-<h3 align="center">Computer Science Student @ Ontario Tech</h3>
+<h3 align="center">3rd Year Computer Science Student @ Ontario Tech</h3>
 I'm a developer passionate about building practical, user‑focused software.  
 I enjoy solving problems with Java, Python, and data‑driven approaches, and I love collaborating in team environments using Agile and Git.
 
