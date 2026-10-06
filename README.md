@@ -10,7 +10,6 @@ I’m a Computer Science student passionate about backend development, machine l
 ## Technical Skills
 
 **Languages:** Java, Python, C++, Bash
-
 **Tools:** Git, VS Code, IntelliJ IDEA, Linux, MS Office
 
 **Libraries:** pandas, NumPy, Matplotlib, seaborn
@@ -37,6 +36,7 @@ I’m a Computer Science student passionate about backend development, machine l
 - Preparing and cleaning datasets to support model training and evaluation.
 - Planning experiments with classification algorithms to identify optimal replenishment quantities.
 - Developing visualizations to communicate trends and model insights as the project progresses.
+  
 🔗 [View Repo](https://github.com/AnishaP3/Reducing-Inventory-Waste-in-Grocery-Stores)
 
 ---
@@ -46,6 +46,7 @@ I’m a Computer Science student passionate about backend development, machine l
 - Building a responsive course‑browsing platform with filtering, searching, and interactive course previews.
 - Adding features such as course favouriting and review/ratings to support informed decision‑making.
 - Implementing a custom database and connecting it to a backend API for structured course data retrieval and real‑time updates.
+  
 🔗 [View Repo](https://github.com/TheCuties/TheCuties-Classes-Catalogue)
 
 ---
