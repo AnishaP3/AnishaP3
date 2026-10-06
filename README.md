@@ -23,22 +23,21 @@ I’m a Computer Science student passionate about backend development, machine l
 
 ## Featured Projects
 
-
 ### Food Waste Reduction Model (Python, Machine Learning)
 **Sept 2026 – Present**
-• Designing a machine learning model to predict product demand and spoilage risk for grocery retailers.
-• Preparing and cleaning datasets to support model training and evaluation.
-• Planning experiments with classification algorithms to identify optimal replenishment quantities.
-• Developing visualizations to communicate trends and model insights as the project progresses.
+- Designing a machine learning model to predict product demand and spoilage risk for grocery retailers.
+- Preparing and cleaning datasets to support model training and evaluation.
+- Planning experiments with classification algorithms to identify optimal replenishment quantities.
+- Developing visualizations to communicate trends and model insights as the project progresses.
 🔗 [View Repo](https://github.com/AnishaP3/Reducing-Inventory-Waste-in-Grocery-Stores)
 
 ---
 
 ### University Course Browsing Website (React, JavaScript, HTML, CSS)
 **Sept 2026 – Present**
-• Building a responsive course‑browsing platform with filtering, searching, and interactive course previews.
-• Adding features such as course favouriting and review/ratings to support informed decision‑making.
-• Implementing a custom database and connecting it to a backend API for structured course data retrieval and real‑time updates.
+- Building a responsive course‑browsing platform with filtering, searching, and interactive course previews.
+- Adding features such as course favouriting and review/ratings to support informed decision‑making.
+- Implementing a custom database and connecting it to a backend API for structured course data retrieval and real‑time updates.
 🔗 [View Repo](https://github.com/TheCuties/TheCuties-Classes-Catalogue)
 
 ---
@@ -77,7 +76,6 @@ I’m a Computer Science student passionate about backend development, machine l
 
 ##  Connect With Me
 - LinkedIn: www.linkedin.com/in/anisha-penikalapati 
-
 
 
 <!--
