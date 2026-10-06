@@ -3,23 +3,45 @@
 # Hi, I'm Anisha
 
 <h3 align="center">3rd Year Computer Science Student @ Ontario Tech</h3>
-I'm a developer passionate about building practical, user‑focused software.  
-I enjoy solving problems with Java, Python, and data‑driven approaches, and I love collaborating in team environments using Agile and Git.
+I’m a Computer Science student passionate about backend development, machine learning, and building systems that solve real problems. I enjoy exploring new technologies, improving my skills, and using AI tools responsibly to accelerate development while validating outputs through testing and engineering judgment.
 
 ---
 
 ## Technical Skills
 
-**Languages:** Java, Python, C++, Bash  
-**Tools:** Git, VS Code, IntelliJ, MS Office  
-**Libraries:** pandas, NumPy, Matplotlib, seaborn  
-**Methods:** Agile (Scrum), Version Control  
-**Coursework:** Data Structures, Computer Architecture, Data Analysis, Software Systems, Software Design  
-**Soft Skills:** Problem Solving, Collaboration, Communication, Time Management  
+**Languages:** Java, Python, C++, Bash
+**Tools:** Git, VS Code, IntelliJ IDEA, Linux, MS Office
+**Libraries:** pandas, NumPy, Matplotlib, seaborn
+**Concepts:** Object-Oriented Programming, Data Structures, Algorithms, Multithreading, Networking, Client–Server Architecture
+**Methods:** Agile (Scrum), Version Control
+**Coursework:** Data Structures, Computer Architecture, Data Analysis, Software Systems, Software Design
+**Current Coursework:** Algorithms, Machine Learning 1, Web Application Development
+**Planned Coursework** (Winter 2027): Database Systems, Artificial Intelligence, Systems Programming
+**Soft Skills:** Problem Solving, Collaboration, Communication, Time Management
 
 ---
 
 ## Featured Projects
+
+
+### Food Waste Reduction Model (Python, Machine Learning)
+**Sept 2026 – Present**
+• Designing a machine learning model to predict product demand and spoilage risk for grocery retailers.
+• Preparing and cleaning datasets to support model training and evaluation.
+• Planning experiments with classification algorithms to identify optimal replenishment quantities.
+• Developing visualizations to communicate trends and model insights as the project progresses.
+🔗 [View Repo](https://github.com/AnishaP3/Reducing-Inventory-Waste-in-Grocery-Stores)
+
+---
+
+### University Course Browsing Website (React, JavaScript, HTML, CSS)
+**Sept 2026 – Present**
+• Building a responsive course‑browsing platform with filtering, searching, and interactive course previews.
+• Adding features such as course favouriting and review/ratings to support informed decision‑making.
+• Implementing a custom database and connecting it to a backend API for structured course data retrieval and real‑time updates.
+🔗 [View Repo](https://github.com/TheCuties/TheCuties-Classes-Catalogue)
+
+---
 
 ###  Multiplayer Battleship Game (Java)  
 **Mar 2026 – Apr 2026**  
