@@ -10,6 +10,7 @@ I’m a Computer Science student passionate about backend development, machine l
 ## Technical Skills
 
 **Languages:** Java, Python, C++, Bash
+
 **Tools:** Git, VS Code, IntelliJ IDEA, Linux, MS Office
 
 **Libraries:** pandas, NumPy, Matplotlib, seaborn
@@ -63,7 +64,8 @@ I’m a Computer Science student passionate about backend development, machine l
 **Jan 2026 – Apr 2026**  
 - Built a full‑stack e‑commerce platform with product browsing, cart management, and checkout workflows.  
 - Integrated a personality test that generates personalized clothing recommendations.
-- Worked in a team using Agile practices and Git for version control.  
+- Worked in a team using Agile practices and Git for version control.
+  
 🔗 [View Repo](https://github.com/AnishaP3/Project-Hub)
 
 ---
