@@ -10,13 +10,21 @@ I’m a Computer Science student passionate about backend development, machine l
 ## Technical Skills
 
 **Languages:** Java, Python, C++, Bash
+
 **Tools:** Git, VS Code, IntelliJ IDEA, Linux, MS Office
+
 **Libraries:** pandas, NumPy, Matplotlib, seaborn
+
 **Concepts:** Object-Oriented Programming, Data Structures, Algorithms, Multithreading, Networking, Client–Server Architecture
+
 **Methods:** Agile (Scrum), Version Control
+
 **Coursework:** Data Structures, Computer Architecture, Data Analysis, Software Systems, Software Design
+
 **Current Coursework:** Algorithms, Machine Learning 1, Web Application Development
+
 **Planned Coursework** (Winter 2027): Database Systems, Artificial Intelligence, Systems Programming
+
 **Soft Skills:** Problem Solving, Collaboration, Communication, Time Management
 
 ---
@@ -44,33 +52,33 @@ I’m a Computer Science student passionate about backend development, machine l
 
 ###  Multiplayer Battleship Game (Java)  
 **Mar 2026 – Apr 2026**  
-• Built a two‑player Battleship game using Java sockets and multithreading for real‑time communication.  
-• Implemented server‑side turn management, hit/miss validation, and synchronized game boards.  
-• Added sound effects, move highlights, and a basic matchmaking lobby.  
+- Built a two‑player Battleship game using Java sockets and multithreading for real‑time communication.  
+- Implemented server‑side turn management, hit/miss validation, and synchronized game boards.  
+- Added sound effects, move highlights, and a basic matchmaking lobby.  
 
 ---
 
 ###  E‑Commerce Clothing Website (Java)  
 **Jan 2026 – Apr 2026**  
-• Built a full‑stack e‑commerce platform with product browsing, cart management, and checkout workflows.  
-• Integrated a personality test that generates personalized clothing recommendations.  
-• Worked in a team using Agile practices and Git for version control.  
+- Built a full‑stack e‑commerce platform with product browsing, cart management, and checkout workflows.  
+- Integrated a personality test that generates personalized clothing recommendations.
+- Worked in a team using Agile practices and Git for version control.  
 🔗 [View Repo](https://github.com/AnishaP3/Project-Hub)
 
 ---
 
 ###  Data Science Project — Social Media & Productivity (Python)  
 **Oct 2025 – Nov 2025**  
-• Analyzed the relationship between social media usage and productivity using pandas, NumPy, and Matplotlib.  
-• Cleaned and transformed raw datasets, handled missing values, and created visualizations to identify behavioral trends.  
+- Analyzed the relationship between social media usage and productivity using pandas, NumPy, and Matplotlib.
+- Cleaned and transformed raw datasets, handled missing values, and created visualizations to identify behavioral trends.  
 
 ---
 
 ###  Utility Payment Service (Java)  
 **Oct 2023 – Jan 2024**  
-• Developed an OOP‑based utility billing system (gas, water, electricity) to centralize bill payments.  
-• Added installment payment options to improve user flexibility.  
-• Collaborated in a team environment.  
+- Developed an OOP‑based utility billing system (gas, water, electricity) to centralize bill payments.  
+- Added installment payment options to improve user flexibility.  
+- Collaborated in a team environment.  
 
 ---
 
